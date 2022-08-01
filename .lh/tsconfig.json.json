@@ -1,0 +1,18 @@
+{
+    "sourceFile": "tsconfig.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1660297183342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1660297183342,
+            "name": "Commit-0",
+            "content": "{\r\n\t\"extends\": \"@vue/tsconfig/tsconfig.web.json\",\r\n\t\"compilerOptions\": {\r\n\t\t\"module\": \"ESNext\",\r\n\t\t\"target\": \"esnext\",\r\n\t\t\"moduleResolution\": \"node\",\r\n\t\t\"strict\": true,\r\n\t\t\"declaration\": true,\r\n\t\t\"noUnusedLocals\": true,\r\n\t\t\"esModuleInterop\": true,\r\n\t\t\"outDir\": \"dist\",\r\n\t\t\"sourceMap\": false,\r\n\t\t\"noEmitOnError\": true,\r\n\t\t\"noImplicitAny\": false\r\n\t}\r\n}\r\n"
+        }
+    ]
+}

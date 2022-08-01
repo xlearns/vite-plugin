@@ -1,0 +1,11 @@
+{
+  "name": "@plugin/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/test.ts",
+  "scripts": {
+    "dev": "tsup --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

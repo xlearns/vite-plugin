@@ -1,0 +1,26 @@
+{
+    "sourceFile": "playground/src/App.vue",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1660296933054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1660296943013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n <script setup lang=\"ts\">\n+import { ref } from \"vue\";\n defineTest({ name: \"test\" });\n \n-const msg = ref(\"hello\";)\n+const msg = ref(\"hello\");\n </script>\n \n <template>\n \t<div class=\"text-while\">{{ msg }}</div>\n"
+                },
+                {
+                    "date": 1660296952643,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n <script setup lang=\"ts\">\n+//自动注入ref\n import { ref } from \"vue\";\n defineTest({ name: \"test\" });\n \n const msg = ref(\"hello\");\n"
+                }
+            ],
+            "date": 1660296933054,
+            "name": "Commit-0",
+            "content": "<script setup lang=\"ts\">\ndefineTest({ name: \"test\" });\n\nconst msg = ref(\"hello\";)\n</script>\n\n<template>\n\t<div class=\"text-while\">{{ msg }}</div>\n\t<HAHA msg=\"hello world\" />\n</template>\n\n<style scoped>\n.logo {\n\theight: 6em;\n\tpadding: 1.5em;\n\twill-change: filter;\n}\n.logo:hover {\n\tfilter: drop-shadow(0 0 2em #646cffaa);\n}\n.logo.vue:hover {\n\tfilter: drop-shadow(0 0 2em #42b883aa);\n}\n.text-while {\n\tcolor: #fff;\n}\n</style>\n"
+        }
+    ]
+}

@@ -1,14 +1,16 @@
 {
+	"extends": "@vue/tsconfig/tsconfig.web.json",
 	"compilerOptions": {
-		"target": "es2017",
-		"module": "esnext",
-		"lib": ["esnext"],
+		"module": "ESNext",
+		"target": "esnext",
 		"moduleResolution": "node",
-		"esModuleInterop": true,
 		"strict": true,
-		"jsx": "preserve",
-		"strictNullChecks": true,
-		"resolveJsonModule": true,
-		"baseUrl": "."
+		"declaration": true,
+		"noUnusedLocals": true,
+		"esModuleInterop": true,
+		"outDir": "dist",
+		"sourceMap": false,
+		"noEmitOnError": true,
+		"noImplicitAny": false
 	}
 }
